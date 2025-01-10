@@ -5,63 +5,175 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>แบบทดสอบ Data Type ใน Python</title>
-    <link rel="stylesheet" href="stylee.css">
+    <link rel="stylesheet" href="styleex.css">
+    <link rel="icon" href="pictures/icon data type-Photoroom.png" type="image/png">
 </head>
 
 <body>
     <header>
-        <h1>แบบทดสอบเรื่อง Data Type ใน Python</h1>
-        <p>ทดสอบความรู้เกี่ยวกับ Data Type เพื่อทบทวนและเพิ่มพูนความเข้าใจ</p>
+        <h1>แบบทดสอบ Data Type ใน Python</h1>
     </header>
 
     <main>
         <form id="quiz-form">
             <section>
-                <p>1.Data Type ใดใช้เก็บค่าจำนวนเต็มใน Python?</p>
+                <p>1. Data Type ใดใช้เก็บค่าจำนวนเต็มใน Python?</p>
                 <label>
                     <input type="radio" name="question1" value="a" required>
                     A. float
-                </label><br>
+                </label>
                 <label>
                     <input type="radio" name="question1" value="b">
                     B. int
-                </label><br>
+                </label>
                 <label>
                     <input type="radio" name="question1" value="c">
                     C. str
-                </label><br>
+                </label>
             </section>
 
             <section>
-                <p>2.Data Type ใดที่ใช้เก็บข้อความใน Python?</p>
+                <p>2. Data Type ใดที่ใช้เก็บข้อความใน Python?</p>
                 <label>
                     <input type="radio" name="question2" value="a" required>
                     A. bool
-                </label><br>
+                </label>
                 <label>
                     <input type="radio" name="question2" value="b">
                     B. str
-                </label><br>
+                </label>
                 <label>
                     <input type="radio" name="question2" value="c">
                     C. list
-                </label><br>
+                </label>
             </section>
 
             <section>
-                <p>3.คำสั่งใดใช้สำหรับตรวจสอบประเภทข้อมูลใน Python?</p>
+                <p>3. คำสั่งใดใช้สำหรับตรวจสอบประเภทข้อมูลใน Python?</p>
                 <label>
                     <input type="radio" name="question3" value="a" required>
                     A. checkType()
-                </label><br>
+                </label>
                 <label>
                     <input type="radio" name="question3" value="b">
                     B. type()
-                </label><br>
+                </label>
                 <label>
                     <input type="radio" name="question3" value="c">
                     C. dataType()
-                </label><br>
+                </label>
+            </section>
+
+            <section>
+                <p>4. a = 10 คือ type อะไร?</p>
+                <label>
+                    <input type="radio" name="question4" value="a" required>
+                    A. class 'int'
+                </label>
+                <label>
+                    <input type="radio" name="question4" value="b">
+                    B. class 'str'
+                </label>
+                <label>
+                    <input type="radio" name="question4" value="c">
+                    C. class 'bool'
+                </label>
+            </section>
+
+            <section>
+                <p>5. list = [0,1,3,6,17,29] ถ้า print(list[4]) output ออกมาคืออะไร?</p>
+                <label>
+                    <input type="radio" name="question5" value="a" required>
+                    A. 29
+                </label>
+                <label>
+                    <input type="radio" name="question5" value="b">
+                    B. 6
+                </label>
+                <label>
+                    <input type="radio" name="question5" value="c">
+                    C. 17
+                </label>
+            </section>
+
+            <section>
+                <p>6. ข้อใดต่อไปนี้ **ไม่ใช่** Data Type ใน Python?</p>
+                <label>
+                    <input type="radio" name="question6" value="a" required>
+                    A. Dictionary
+                </label>
+                <label>
+                    <input type="radio" name="question6" value="b">
+                    B. Set
+                </label>
+                <label>
+                    <input type="radio" name="question6" value="c">
+                    C. Matrix
+                </label>
+            </section>
+
+            <section>
+                <p>7. คำสั่งใดที่สามารถแปลงค่าตัวเลข 3.14 ให้เป็นจำนวนเต็ม?</p>
+                <label>
+                    <input type="radio" name="question7" value="a" required>
+                    A. int(3.14)
+                </label>
+                <label>
+                    <input type="radio" name="question7" value="b">
+                    B. str(3.14)
+                </label>
+                <label>
+                    <input type="radio" name="question7" value="c">
+                    C. float(3.14)
+                </label>
+            </section>
+
+            <section>
+                <p>8. ค่าต่อไปนี้เป็น Data Type ชนิดใดใน Python: [1, 2, 3, 4]</p>
+                <label>
+                    <input type="radio" name="question8" value="a" required>
+                    A. Tuple
+                </label>
+                <label>
+                    <input type="radio" name="question8" value="b">
+                    B. Set
+                </label>
+                <label>
+                    <input type="radio" name="question8" value="c">
+                    C. List
+                </label>
+            </section>
+
+            <section>
+                <p>9. ผลลัพธ์ของคำสั่ง type("123") จะเป็นอะไร?</p>
+                <label>
+                    <input type="radio" name="question9" value="a" required>
+                    A. float
+                </label>
+                <label>
+                    <input type="radio" name="question9" value="b">
+                    B. str
+                </label>
+                <label>
+                    <input type="radio" name="question9" value="c">
+                    C. int
+                </label>
+            </section>
+
+            <section>
+                <p>10. Data Type ใดที่ไม่สามารถเปลี่ยนแปลงค่าได้หลังจากสร้างแล้ว?</p>
+                <label>
+                    <input type="radio" name="question10" value="a" required>
+                    A. Dictionary
+                </label>
+                <label>
+                    <input type="radio" name="question10" value="b">
+                    B. Tuple
+                </label>
+                <label>
+                    <input type="radio" name="question10" value="c">
+                    C. List
+                </label>
             </section>
 
             <button type="submit">ส่งคำตอบ</button>
@@ -73,8 +185,7 @@
     </footer>
 
     <script>
-        const form = document.getElementById('quiz-form');
-        form.addEventListener('submit', function (event) {
+        document.getElementById('quiz-form').addEventListener('submit', function (event) {
             event.preventDefault();
             alert('คำตอบของคุณได้ถูกส่งแล้ว! ขอบคุณที่เข้าร่วมทำแบบทดสอบ');
         });
